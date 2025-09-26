@@ -5,13 +5,13 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
     background-color: #1f2937;
     color: white;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 600;
     align-items: center;
 }
@@ -21,3 +21,41 @@ body {
     font-size: 16px;
     font-weight: 300;
 }
+.firstline {
+    display: flex;
+    padding-bottom: 7vw;
+    padding-top: 7vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    background-color: #1f2937;
+    gap: 50px;
+    flex: 1;
+    justify-content: space-between;
+   
+}
+.awesome {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    gap: 20px;
+    
+}
+.mybutton {
+    align-self: flex-start;
+    background-color: #3882f6;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.awesometextdescription {
+    font-size: 20px;
+    font-weight: 300;
+    flex-wrap: wrap;
+}
+
